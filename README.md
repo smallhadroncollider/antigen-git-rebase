@@ -5,7 +5,7 @@ Antigen/zsh script to aid with Git rebasing
 
 Make sure you have [Antigen](https://github.com/zsh-users/antigen) installed, then add the following line to your `.zshrc` file:
 
-`antigen bundle smallhadroncollider/git-rebase`
+`antigen bundle smallhadroncollider/antigen-git-rebase`
 
 ## Usage
 
