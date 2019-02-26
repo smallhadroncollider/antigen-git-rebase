@@ -17,5 +17,5 @@ rebase() {
     printf "Commit #: "
     read -r commit
 
-    git rebase -i $stashArg HEAD~$commit
+    git rebase -i --autosquash $stashArg HEAD~$commit
 }
